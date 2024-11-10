@@ -17,7 +17,7 @@ return(
 
 <Link href= {"/"}><li><button className="button">MAIN</button></li></Link>
 <Link href= {"/Gallery"}> <li>GALLERY</li></Link>
-<Link href= {"/Project"}><li>PROJECT</li></Link>
+<Link href= {"/Project"}> <li>PROJECT</li></Link>
 <Link href= {"/Certification"}><li>CERTIFICATION</li></Link>
 <Link href= {"/Contact"}><li>CONTACT</li></Link>
    
