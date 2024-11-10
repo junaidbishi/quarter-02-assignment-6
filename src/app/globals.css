@@ -2,26 +2,116 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.header{
+
+  
+   height: 102px;
+    border: 3px solid;
+   
+
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.header-button{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-top: -30px;
+    font-size: medium;
+    font-weight: 500;
+
+
+
+}
+.button{
+    color: rgb(61, 50, 50);
+    border: 3px black;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.logoone{
+padding-left: 65px;
+margin-top: 30px;
+
+
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.arrow{
+display: flex;
+gap: 15px;
+
+}
+
+.main{
+
+justify-items: right;
+
+}
+
+.samplefour{
+
+gap: 20px;
+
+}
+.samplethree{
+
+    margin-top: 20px;
+}
+
+.about{
+justify-items: right;
+margin-bottom: 500px;
+margin-top: 20px;
+font-weight: 500;
+font-size: medium;
+
+
+}
+
+.align{
+    justify-items: right;
+    margin-right: 430px;
+    font-weight: 500;
+    font-display: inherit;
+    color: rgb(167, 163, 163);
+    font-family: Robot;
+    font-weight: 500 bold;
+    font-size: xx-large;
+
+
+    
+}
+
+
+.main2{
+
+margin: 200px;
+margin-top: -500px;
+font-size: xx-large;
+font-weight: bold 400 ;
+/* font: Roboto; */
+gap: 0px;
+/* text-decoration-style: solid ; */
+}
+
+.gallery{
+
+display: flex;
+gap: 30px;
+padding: 60px;
+
+
+}
+
+
+.heading1{
+    color: dimgray;
+  
+}
+
+
+.heading2{
+    color: black;
+    padding-bottom: 50px;
+    font-weight:  bold;
+    
 }
